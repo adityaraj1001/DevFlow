@@ -1,19 +1,21 @@
-# DevFlow — Design Decisions
+# DevFlow — Decisions
 
 ## 1. Why this approach?
 
-I chose to build the Premium Home Page track using React and Vite because it allowed me to create a responsive component-based interface quickly while keeping the implementation easy to maintain. I considered building the page with plain HTML/CSS, but React made it easier to separate the navbar, hero, product preview, features, workflow, CTA, and footer into reusable components.
+I picked Part 2 because I wanted to focus on the product experience and visual quality rather than splitting my time between scraping and frontend work.
 
-The design focuses on a strong first impression rather than filling the page with unnecessary content. I used a dark interface with a lime-green accent, strong typography, clear spacing, and a focused primary CTA. The product preview section was included to demonstrate what DevFlow actually offers instead of relying only on marketing copy.
+I used React with Vite and broke the page into components such as the Navbar, Hero, Dashboard Preview, Features, Workflow, CTA and Footer. I chose this over a single HTML file because it made the page easier to organize and update while I was iterating on the design.
+
+The main design direction was a dark developer-focused interface with a lime accent. I kept the hero simple: one clear message, a short explanation and two actions. I also included a product/dashboard preview so the page shows what DevFlow is instead of only describing it.
 
 ## 2. Trade-off
 
-Because of the time limit, I prioritized the core landing-page experience, responsive behavior, visual hierarchy, and product preview over building a complete application behind the page.
+The main trade-off was time. I focused on getting the landing page polished and responsive instead of building a real DevFlow application behind it.
 
-With a real week, I would improve the product interaction further, add more detailed dashboard states, perform broader browser/device testing, improve accessibility and keyboard navigation, and add more refined motion based on user testing.
+If I had a full week, I would spend more time on accessibility, browser/device testing, more detailed product interactions and refining the animations based on user feedback.
 
 ## 3. AI tools
 
-I used AI tools during development for brainstorming, debugging, implementation suggestions, and reviewing parts of the React/CSS structure. I personally integrated the suggestions into the project, tested the application locally, checked the browser console, verified the responsive layout at mobile and desktop widths, and modified the generated suggestions to match the intended DevFlow design.
+I used AI during development mainly for ideas, debugging and help when I was stuck with React/CSS issues. I did not treat the generated output as the finished project. I ran the project locally, checked the browser console, tested the layout at desktop and 390px mobile width, and changed the code when something did not behave as expected.
 
-The final implementation was tested and adjusted manually rather than submitting AI-generated output without verification.
+I also made the final design and implementation decisions myself and verified the deployed version on Vercel.
