@@ -1283,3 +1283,15 @@ input:focus-visible {
     font-size: 35px;
   }
 }
+.devflow-secret {
+  animation: devflowSecret 0.25s infinite alternate;
+}
+
+@keyframes devflowSecret {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(90deg);
+  }
+}
